@@ -12,6 +12,8 @@ Se necesita Anaconda para ejecutarlo.
   <img src=images/timelapse.png alt="Interfaz">
 </p>
 
+&nbsp;
+
                                              --- Resultado --- 
                                                           
 <p align="center">
