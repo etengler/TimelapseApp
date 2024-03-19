@@ -4,16 +4,23 @@
 
 Se necesita Anaconda para ejecutarlo.
 
-<p align="center">
-  <img src=timelaspse.gif alt="Texto Alternativo">
-</p>
+&nbsp;
+
+                                                      --- Interfaz visual --- 
 
 <p align="center">
-  <img src=landsat_rioBermejo.gif alt="Texto Alternativo">
+  <img src=images/timelapse.png alt="Interfaz">
+</p>
+
+                                                          --- Resultado --- 
+                                                          
+<p align="center">
+  <img src=images/landsat_rioBermejo.gif alt="Gif">
 </p>
 
 
 
+&nbsp;
 
 En Anaconda se deberá ejecutar la siguiente manera: 
 
