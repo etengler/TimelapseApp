@@ -35,7 +35,7 @@ Pasos:
 
     conda env create --file ENV.yml
 
-    conda activate ENV
+    conda activate env_time
 
     voila aguaTierra.ipynb
 
