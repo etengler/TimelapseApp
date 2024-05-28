@@ -28,22 +28,25 @@ Pasos:
 
 1) Pegar los archivos en una carpeta en nuestra pc. Luego, acceder a esa carpeta desde la consola de Anaconda.
 
-    cd ruta\donde\estan\los\archivos
+    **cd ruta\donde\estan\los\archivos**
 
  
 2) A continuación, ejecutar las siguientes líneas en orden:
 
     conda env create --file ENV.yml
 
-    conda activate env_time
+    **conda activate env_time**
 
-    voila aguaTierra.ipynb
+    earthengine authenticate
+    (deberá otorgar permisos)
+
+    **voila aguaTierra.ipynb**
 
 Este último paso abrirá el navegador con la aplicación!!
 
 &nbsp;
 
-La línea "conda env create --file ENV.yml", que crea el entorno virtual, debe ejecutarse sólo una única vez. La siguiente vez que desee usar la aplicación ese paso no será necesario ya que el entorno ya estará creado! Es decir, se deben ejecutar todos los pasos excepto ese.
+La línea "conda env create --file ENV.yml" que crea el entorno virtual, y "earthengine authenticate" deben ejecutarse sólo una única vez. La siguiente vez que desee usar la aplicación esos pasos no serán necesarios ya que el entorno ya estará creado y ya se ha autenticado! Es decir, se deben ejecutar todos los pasos excepto esos.
 
 &nbsp;   
 
