@@ -2,7 +2,7 @@
                                                             
 ## Esta herramienta permite generar un TIMELAPSE de una región y un período en particular a partir de imágenes Landsat.
 
-Se necesita Anaconda para ejecutarlo.
+Se necesita **Anaconda** o **Minianaconda** para ejecutarlo.
 
 &nbsp;
 
@@ -24,33 +24,69 @@ Se necesita Anaconda para ejecutarlo.
 
 &nbsp;
 
-Pasos: 
 
-1) Pegar los archivos en una carpeta en nuestra pc. Luego, acceder a esa carpeta desde la consola de Anaconda.
+                                             --- Instalación ---
 
-    **cd ruta\donde\estan\los\archivos**
+El **primer paso** es crear una cuenta de Gcloud para que la aplicación funcione. 
 
- 
-2) A continuación, ejecutar las siguientes líneas en orden:
+Puede seguir este tutorial: ...
 
-    conda env create --file ENV.yml
 
-    **conda activate env_time**
+Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir la instalación.
 
-    earthengine authenticate
-    (deberá otorgar permisos)
 
-    **voila aguaTierra.ipynb**
-
-Este último paso abrirá el navegador con la aplicación!!
+El **segundo paso** es la intsalación de los componentes de la aplicación en nuestra PC. Es importante tener en cuenta que hay pasos que sólo se realizan una única vez y otros que deben ejecutarse cada vez que se desee utilizar la aplicación.
 
 &nbsp;
 
-La línea "conda env create --file ENV.yml" que crea el entorno virtual, y "earthengine authenticate" deben ejecutarse sólo una única vez. La siguiente vez que desee usar la aplicación esos pasos no serán necesarios ya que el entorno ya estará creado y ya se ha autenticado! Es decir, se deben ejecutar todos los pasos excepto esos.
+                          --- Pasos a realizar por primera vez (y única) ---
+ 
+A) Descargar la carpeta TimelapseApp desde GitHub: Code ----> Download ZIP
 
-&nbsp;   
+![image](https://github.com/user-attachments/assets/316df2b0-cbeb-4411-ae77-d75211709a02)
+
+B) Pegar la descarga en una carpeta en nuestra pc, accedar hasta ver los archivos y copiar esa ruta.
+
+![image](https://github.com/user-attachments/assets/313fabe5-3aea-4eaf-afa4-abbca6af93de)
+
+C) Abrir la consola de Anaconda o Minianaconda. Ejecutar las siguientes líneas (en negrita):
+
+   &nbsp;
+   
+    1- Abrir la consola de Anaconda o Minianaconda. 
+  
+    2- Acceder a la carpeta contenedora del proyecto:  **cd ruta\donde\estan\los\archivos**
+  
+    3- Crear el entorno virtual con todas las dependecias utilizadas: **conda env create --file ENV.yml**
+
+    4- Activar el entorno virtual: **conda activate env_time**
+
+    5- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+
+    6- Otorgar permisos: **earthengine authenticate**
+
+    7- Inicilaizar el proyecto. Aca es **IMPORTANTE** colocar el nombre del proyecto personal obtenido en el paso 1: **python -c "import ee; ee.Initialize(project='ACA_VA_EL_NOMBRE_DEL_PROYECTO_DEL_PASO_1')"**
+
+    8- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+  
+
+&nbsp;
+
+                       --- Pasos a realizar para ejecutar la aplicación (siempre y cuando se haya realizado el paso anterior) ---
+
+
+  1- Abrir la consola de Anaconda o Minianaconda. 
+
+  2- Acceder a la carpeta contenedora del proyecto:  **cd ruta\donde\estan\los\archivos**
+
+  3- Activar el entorno virtual: **conda activate env_time**
+
+  4- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+
+
+&nbsp;
+----------------------------------------------------------------------------------------------------------------  
 
 ##
-
 
 Este código es una adaptación del que se encuentra disponible en el sitio web https://geemap.org/
