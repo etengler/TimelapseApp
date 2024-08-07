@@ -29,7 +29,7 @@ Se necesita **Anaconda** o **Minianaconda** para ejecutarlo.
 
 El **primer paso** es crear una cuenta de Gcloud para que la aplicación funcione. 
 
-Puede seguir este tutorial: ...
+Puede seguir este tutorial: [...](https://github.com/etengler/TimelapseApp/blob/main/Tutorial%20-%20Cuenta%20GCloud.pdf)
 
 
 Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir la instalación.
@@ -65,7 +65,9 @@ C) Abrir la consola de Anaconda o Minianaconda. Ejecutar las siguientes líneas 
 
     6- Otorgar permisos: **earthengine authenticate**
 
-    7- Inicilaizar el proyecto. Aca es **IMPORTANTE** colocar el nombre del proyecto personal obtenido en el paso 1: **python -c "import ee; ee.Initialize(project='ACA_VA_EL_NOMBRE_DEL_PROYECTO_DEL_PASO_1')"**
+    7- Inicilaizar el proyecto. Aca es **IMPORTANTE** colocar el nombre del proyecto personal obtenido en el paso 1: 
+    
+    **python -c "import ee; ee.Initialize(project='ACA_VA_EL_NOMBRE_DEL_PROYECTO_DEL_PASO_1')"**
 
     8- Ejecutar la aplicación: **voila aguaTierra.ipynb**
   
