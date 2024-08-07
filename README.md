@@ -29,7 +29,7 @@ Se necesita **Anaconda** o **Minianaconda** para ejecutarlo.
 
 El **primer paso** es crear una cuenta de Gcloud para que la aplicación funcione. 
 
-Puede seguir este tutorial: [...](https://github.com/etengler/TimelapseApp/blob/main/Tutorial%20-%20Cuenta%20GCloud.pdf)
+Puede seguir este tutorial: [Tutorial-Cuenta-GCloud](https://github.com/etengler/TimelapseApp/blob/main/Tutorial%20-%20Cuenta%20GCloud.pdf)
 
 
 Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir la instalación.
