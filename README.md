@@ -2,7 +2,7 @@
                                                             
 ## Esta herramienta permite generar un TIMELAPSE de una región y un período en particular a partir de imágenes Landsat.
 
-Se necesita **Anaconda** o **Minianaconda** para ejecutarlo.
+Se necesita el programa **Anaconda** o **Minianaconda** para ejecutarlo (Link de descarga: https://docs.anaconda.com/miniconda/)
 
 &nbsp;
 
@@ -27,31 +27,42 @@ Se necesita **Anaconda** o **Minianaconda** para ejecutarlo.
 
                                              --- Instalación ---
 
-El **primer paso** es crear una cuenta de Gcloud para que la aplicación funcione. 
+El **primer paso** es **crear una cuenta de Gcloud** para que la aplicación funcione.
 
 Puede seguir este tutorial: [Tutorial-Cuenta-GCloud](https://github.com/etengler/TimelapseApp/blob/main/Tutorial%20-%20Cuenta%20GCloud.pdf)
 
+&nbsp;
 
-Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir la instalación.
-
-
-El **segundo paso** es la intsalación de los componentes de la aplicación en nuestra PC. Es importante tener en cuenta que hay pasos que sólo se realizan una única vez y otros que deben ejecutarse cada vez que se desee utilizar la aplicación.
+Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir con la instalación.
+Luego, se debe modificar la linea del archivo aguaTierra.ipynb
 
 &nbsp;
 
-                          --- Pasos a realizar por primera vez (y única) ---
- 
-A) Descargar la carpeta TimelapseApp desde GitHub: Code ----> Download ZIP
+El **segundo paso** es la **intsalación de los componentes** de la aplicación en nuestra PC. Es importante tener en cuenta que hay pasos que sólo se realizan por única vez y otros que deben ejecutarse cada vez que se desee utilizar la aplicación.
+
+&nbsp;
+
+                          --- Primera instalación ---
+
+Serie de pasos a realizar por única vez la primera vez que se instala la aplicación. 
+
+&nbsp;
+
+
+A) Descargar la carpeta TimelapseApp desde GitHub en **Code ----> Download ZIP**
 
 ![image](https://github.com/user-attachments/assets/316df2b0-cbeb-4411-ae77-d75211709a02)
+
+&nbsp;
 
 B) Pegar la descarga en una carpeta en nuestra pc, accedar hasta ver los archivos y copiar esa ruta.
 
 ![image](https://github.com/user-attachments/assets/313fabe5-3aea-4eaf-afa4-abbca6af93de)
 
+&nbsp;
+
 C) Abrir la consola de Anaconda o Minianaconda. Ejecutar las siguientes líneas (en negrita):
 
-   &nbsp;
    
   1- Abrir la consola de Anaconda o Minianaconda. 
   
