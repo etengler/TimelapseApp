@@ -53,23 +53,23 @@ C) Abrir la consola de Anaconda o Minianaconda. Ejecutar las siguientes líneas 
 
    &nbsp;
    
-    1- Abrir la consola de Anaconda o Minianaconda. 
+  1- Abrir la consola de Anaconda o Minianaconda. 
   
-    2- Acceder a la carpeta contenedora del proyecto:  **cd ruta\donde\estan\los\archivos**
+  2- Acceder a la carpeta contenedora del proyecto: **cd ruta\donde\estan\los\archivos**
   
-    3- Crear el entorno virtual con todas las dependecias utilizadas: **conda env create --file ENV.yml**
+  3- Crear el entorno virtual con todas las dependecias utilizadas: **conda env create --file ENV.yml**
 
-    4- Activar el entorno virtual: **conda activate env_time**
+  4- Activar el entorno virtual: **conda activate env_time**
 
-    5- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+  5- Ejecutar la aplicación: **voila aguaTierra.ipynb**
 
-    6- Otorgar permisos: **earthengine authenticate**
+  6- Otorgar permisos: **earthengine authenticate**
 
-    7- Inicilaizar el proyecto. Aca es **IMPORTANTE** colocar el nombre del proyecto personal obtenido en el paso 1: 
+  7- Inicilaizar el proyecto. Aca es **IMPORTANTE** colocar el nombre del proyecto personal obtenido en el paso 1: 
     
-    **python -c "import ee; ee.Initialize(project='ACA_VA_EL_NOMBRE_DEL_PROYECTO_DEL_PASO_1')"**
+  **python -c "import ee; ee.Initialize(project='ACA_VA_EL_NOMBRE_DEL_PROYECTO_DEL_PASO_1')"**
 
-    8- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+  8- Ejecutar la aplicación: **voila aguaTierra.ipynb**
   
 
 &nbsp;
