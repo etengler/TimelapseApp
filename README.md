@@ -27,18 +27,24 @@ Se necesita el programa **Anaconda** o **Minianaconda** para ejecutarlo (Link de
 
                                              --- Instalación ---
 
-El **primer paso** es **crear una cuenta de Gcloud** para que la aplicación funcione.
+El **primer paso** para la instalación es **crear una cuenta de Gcloud** para que la aplicación funcione.
 
 Puede seguir este tutorial: [Tutorial-Cuenta-GCloud](https://github.com/etengler/TimelapseApp/blob/main/Tutorial%20-%20Cuenta%20GCloud.pdf)
 
 &nbsp;
 
 Independiente del método elegido anteriormente, es importante obtener el **nombre del proyecto** para seguir con la instalación.
-Luego, se debe modificar la linea del archivo aguaTierra.ipynb
 
 &nbsp;
 
-El **segundo paso** es la **intsalación de los componentes** de la aplicación en nuestra PC. Es importante tener en cuenta que hay pasos que sólo se realizan por única vez y otros que deben ejecutarse cada vez que se desee utilizar la aplicación.
+El **segundo paso** es **ABRIR** el archivo aguaTierra.ipynb y **MODIFICAR** la linea **"ee.Initialize(project='...')"** con el nombre del proyecto. 
+
+![image](https://github.com/user-attachments/assets/7a2cb104-5f55-4079-904f-ac4eb0c8f7aa)
+
+
+&nbsp;
+
+El **tercer paso** es la **intsalación de los componentes** de la aplicación en nuestra PC. 
 
 &nbsp;
 
