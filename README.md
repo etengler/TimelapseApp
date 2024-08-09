@@ -48,16 +48,13 @@ A continuación, pegar la descarga en una carpeta en nuestra pc y accedar hasta 
 &nbsp;
 
 
-Por un lado, **ABRIR** el archivo aguaTierra.ipynb y **MODIFICAR** la linea **"ee.Initialize(project='...')"** con el nombre del proyecto. Se encuentra dentro de las primeras lineas del archivo. 
-
-![image](https://github.com/user-attachments/assets/7a2cb104-5f55-4079-904f-ac4eb0c8f7aa)
-
+Por un lado, **ABRIR** el archivo Timelapse.ipynb y **MODIFICAR** la linea **"ee.Initialize(project='...')"** con el nombre del proyecto. Se encuentra dentro de las primeras lineas del archivo. 
 
 &nbsp;
 
 Por otro lado, vamos a necesitar **copiar** la ruta donde se encuentran los archivos para un paso más adelante.
 
-![image](https://github.com/user-attachments/assets/ebc7740d-b4ad-49cd-8263-fc10e7a9f3c1)
+![image](https://github.com/user-attachments/assets/570d53c2-f1d9-478e-99d8-62c6ab9a76cf)
 
 
 &nbsp;
