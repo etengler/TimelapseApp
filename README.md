@@ -43,14 +43,10 @@ El **segundo paso** es Descargar la carpeta TimelapseApp desde GitHub en **Code 
 
 A continuación, pegar la descarga en una carpeta en nuestra pc y accedar hasta ver los archivos. Vamos a necesitar hacer dos cosas.
 
-![image](https://github.com/user-attachments/assets/313fabe5-3aea-4eaf-afa4-abbca6af93de)
-
 &nbsp;
-
 
 Por un lado, **ABRIR** el archivo Timelapse.ipynb y **MODIFICAR** la linea **"ee.Initialize(project='...')"** con el nombre del proyecto. Se encuentra dentro de las primeras lineas del archivo. 
 
-&nbsp;
 
 Por otro lado, vamos a necesitar **copiar** la ruta donde se encuentran los archivos para un paso más adelante.
 
