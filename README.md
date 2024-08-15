@@ -98,7 +98,7 @@ Una vez instalado, cada vez que se quiera ejecutar la aplicación, se deberán e
 
   3- Activar el entorno virtual: **conda activate env_time**
 
-  4- Ejecutar la aplicación: **voila aguaTierra.ipynb**
+  4- Ejecutar la aplicación: **voila timelapse.ipynb**
 
 Listo!
 
